@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#91B5C3"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/LOGIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="90dp"
+        android:onClick="Login_btn"
+        android:text="LOGIN"
+        android:textSize="30sp"
+        app:backgroundTint="#08176A"
+        app:iconPadding="5dp" />
+
+    <Button
+        android:id="@+id/REGISTER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/LOGIN"
+        android:layout_centerInParent="true"
+        android:onClick="Register_btn"
+        android:text="REGISTER"
+        android:textSize="30sp"
+        app:backgroundTint="#08176A"
+        app:iconPadding="5dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Welcome to Online School"
+        android:textColor="#090707"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
